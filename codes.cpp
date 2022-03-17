@@ -43,3 +43,28 @@ int main()
 	cout << "Hello World" << endl;
 	
 }
+
+```````````Working with strings
+#include<iostream>
+using namespace std;
+            
+int main()
+{
+	string phrase = "Programming in cpp";
+	cout << phrase << endl; 
+	cout << phrase;
+}
+
+#include<iostream>
+using namespace std;
+            
+int main()
+{
+	string phrase = "Programming in cpp";
+	cout << phrase.length() << endl;  //18
+	cout << phrase[0] << endl; //p
+	phrase[1] = 'i';
+	cout << phrase << endl; // Piogramming in cpp
+}
+
+
