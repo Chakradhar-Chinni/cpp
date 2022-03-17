@@ -26,3 +26,20 @@ int main()
 	cout << n4;
 	cout << grade;
  }
+
+`````````Observe diff. b/w using endl vs not using endl;
+
+#include<iostream>
+using namespace std;
+            
+int main()
+{
+	cout << "Hello World" << endl;
+	cout << "Hey there, Hello";
+	
+	cout << "\n----" << endl;
+	
+	cout << "Hey there, Hello";
+	cout << "Hello World" << endl;
+	
+}
